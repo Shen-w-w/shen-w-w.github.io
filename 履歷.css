@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+body{
+  font-family: 'Noto Serif TC', serif;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 50px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side {
+    position: relative;
+    background-color: rgb(63, 63, 63);
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #dcdcdc;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contavtInfo ul li.icon {
+    color: #dcdcdc;
+    font-weight: 300;
+}
+
+.contactInfo ul li span {
+    display: flexbox;
+    width: 60px;
+    font-size: 15px;
+    color: #dcdcdc;
+}
+
+.contactInfo h3 {
+    color: #fff;
+}
+
+.contactInfo h4 {
+    color: #dcdcdc;
+    font-weight: 500;
+}
+
+.contactInfo p {
+    color: #dcdcdc;
+    font-weight: 500;
+}
+
+.contactInfo .education li {
+    margin-bottom: 15PX;
+}
+
+.contactInfo .education h3 {
+    color: #fff;
+    font-weight: 200;
+}
+
+.container .right_Side {
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.right_Side p {
+    color:	#414141;
+    letter-spacing: 1px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_Company {
+    min-width: 150px;
+}
+
+.about .box .year_Company h5 {
+    color: #333;
+    font-weight: 600;
+}
+
+.about .box .year_Company h4 {
+    color: #406a71;
+    font-size: 16px;
+}
+
+.about ul li {
+    list-style:circle;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
