@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
-body{
-  font-family: 'Noto Serif TC', serif;
+
+body {
+    font-family: 'Noto Serif TC', serif;
     background-color: rgb(177, 177, 177);
     display: flex;
     justify-content: center;
@@ -79,10 +80,13 @@ body{
     list-style: none;
     position: relative;
     margin: 10px 0;
-    cursor: pointer;
 }
 
-.contavtInfo ul li.icon {
+.contactInfo ul li a {
+    color: #fff;
+}
+
+.contactInfo ul li.icon {
     color: #dcdcdc;
     font-weight: 300;
 }
@@ -103,6 +107,11 @@ body{
     font-weight: 500;
 }
 
+.contactInfo .text {
+    color: #fff;
+    font-weight: 500;
+}
+
 .contactInfo p {
     color: #dcdcdc;
     font-weight: 500;
@@ -116,6 +125,8 @@ body{
     color: #fff;
     font-weight: 200;
 }
+
+
 
 .container .right_Side {
     position: relative;
@@ -132,39 +143,41 @@ body{
 }
 
 .title2 {
-    color: black;
+    color: rgb(105, 105, 105);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.right_Side h4 {
+    color: rgb(105, 105, 105);
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
 .right_Side p {
-    color:	#414141;
+    color: #414141;
     letter-spacing: 1px;
+    line-height: 1.4em;
+    margin: 20px 0;
+
 }
 
 .about .box {
-    display: flex;
     flex-direction: row;
     margin: 20px 0;
 }
 
-.about .box .year_Company {
-    min-width: 150px;
-}
-
-.about .box .year_Company h5 {
-    color: #333;
-    font-weight: 600;
-}
-
-.about .box .year_Company h4 {
-    color: #406a71;
-    font-size: 16px;
-}
-
 .about ul li {
-    list-style:circle;
+    list-style: circle;
     position: relative;
-    margin: 10px 0;
-    cursor: pointer;
+    margin: 20px 0;
+    color: #414141;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
