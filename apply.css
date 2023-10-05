@@ -1,0 +1,42 @@
+body {
+  font-family: 'Noto Serif TC', serif;
+  background-color: rgb(177, 177, 177);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: auto;
+  max-width: 1300px;
+  min-height: 100px;
+  margin: 50px;
+  background-color: #fff;
+  display: grid;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+  color: #3a3a3a;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  color: rgb(18, 13, 69);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(18, 13, 69);
+  text-align: left;
+}
+
+div {
+  position: relative;
+  padding: 40px;
+}
